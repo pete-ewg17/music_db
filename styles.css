@@ -86,8 +86,8 @@ input:focus {
 }
 
 #album_list_container .album_item .item_thmb{
-  width:200px;
-  height:200px;
+  width:100px;
+  height:100px;
   margin: 0 auto;
   background-size: cover;
   background-repeat: no-repeat;
