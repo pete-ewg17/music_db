@@ -92,3 +92,11 @@ input:focus {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+/* NOT MATCH */
+
+#not_match {
+  display: none;
+  text-align: center;
+  color: #555;
+}
