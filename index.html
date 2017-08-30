@@ -1,31 +1,61 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
 
-  <meta charset="UTF-8">
-  <meta http-equiv="x-uacompatible" content="ie-edge">
-  <title>MUSIC DB</title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width-device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta http-equiv="x-uacompatible" content="ie-edge">
+    <title>MUSIC DB</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width-device-width, initial-scale=1">
 
-  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,900" rel="stylesheet">
 
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 
-  <link rel="stylesheet" href="styles.css">
-
-
-</head>
-
-<body>
+    <link rel="stylesheet" href="styles.css">
 
 
+  </head>
+
+  <body>
+    <div class="container">
+
+      <div class="row" id="search_artist">
+
+        <div class="wrapper">
+          <h1>Music DB</h1>
+
+          <form action="" id="form">
+              <input type="text" placeholder="Search artist name" id=input_search>
+          </form>
+
+        </div>
+
+      </div>
+      <div class="row" id="album_list_container">
+
+        <div class="col-sm-3 album_item">
+
+            <div class="item_thmb" style="background: url(http://unsplash.it/200)"></div>
+            <div class="item_title">I Can Destroy</div>
+            <div class="item_price"><span>Price:</span> 200 USD</div>
+          <a href="#" target="_blank">Buy Now</a>
+
+        </div>
+
+      </div>
 
 
 
-<script src="script.js"></script>
 
-</body>
+    </div>
 
 
-</html>
+
+
+
+
+  </body>
+    <script src="script.js"></script>
+
+  </html>
